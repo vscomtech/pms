@@ -190,7 +190,7 @@ const Dashboard = () => {
                   <tr>
                     <th>Project</th>
                     <th>Status</th>
-                    <th>Progress</th>
+                   {/*<th>Progress</th>*/ } 
                     <th>Team</th>
                   </tr>
                 </thead>
@@ -205,7 +205,7 @@ const Dashboard = () => {
                         </div>
                       </td>
                       <td>{getStatusBadge(project.status)}</td>
-                      <td>
+                      {/* <td>
                         <div className="progress" style={{ height: '6px' }}>
                           <div 
                             className="progress-bar" 
@@ -213,7 +213,7 @@ const Dashboard = () => {
                           ></div>
                         </div>
                         <small>{project.progress}%</small>
-                      </td>
+                      </td> */}
                       <td>{project.team}</td>
                     </tr>
                   ))}

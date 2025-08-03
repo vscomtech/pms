@@ -22,7 +22,7 @@ const Layout = ({ children, userRole, onLogout }) => {
     { path: '/tasks', icon: FaTasks, label: 'Tasks' },
     { path: '/invoices', icon: FaFileInvoiceDollar, label: 'Invoices' },
     { path: '/tally-sync', icon: FaSync, label: 'Tally Sync' },
-    { path: '/reports', icon: FaChartBar, label: 'Reports' },
+    // { path: '/reports', icon: FaChartBar, label: 'Reports' },
   ] : [
     { path: '/tasks', icon: FaTasks, label: 'Tasks' },
   ];
